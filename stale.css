@@ -1,5 +1,5 @@
 .klick{
-      background-color: #04AA6D; /* Green */
+      /* background-color: #04AA6D;  Green 
   border: none;
   color: white;
   padding: 15px 32px;
@@ -7,5 +7,36 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  border-radius: 25px; */
+display: inline-block;
+outline: 0;
+border: none;
+cursor: pointer;
+font-weight: 600px;
+border-radius: 50px;
+font-size: 13px;
+height: 30px;
+background-color: #9147ff;
+color: white;
+padding: 0 10px;}
+
+.klick:hover {
+background-color: #f20091;
+}
+.header-link-klick{
+ background-color: #04AA6D; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600px;
   border-radius: 25px;
+}
+
+.header-link-klick:hover{
+background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
 }
